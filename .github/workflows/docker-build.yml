@@ -25,4 +25,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: gfcr.io/github/${{ github.repository }}/astro-art-app:latest
+          tags: ghcr.io/ankitapandey199/astro-art-app:latest
