@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: astro-art-app-deployment
+spec:
+  replicas:2
+  selector:
+    matchLabels:
+      app: astro-art-app
+  template:
+    metadata:
+      labels:
+        app: astro-art-app
+    spec:
+      containers:
+        - name: astro-art-app
+          image: ghcr.io/ankitapandey199/astro-art-app:latest
+          ports:
+            - containerPort: 80
