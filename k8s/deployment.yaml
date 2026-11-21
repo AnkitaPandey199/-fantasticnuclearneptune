@@ -17,3 +17,5 @@ spec:
           image: ghcr.io/ankitapandey199/astro-art-app:latest
           ports:
             - containerPort: 80
+          imagePullSecrets:
+            - name: ghcr-secret
