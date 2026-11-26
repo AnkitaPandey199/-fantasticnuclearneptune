@@ -1,6 +1,7 @@
 # Phase 1: Containerization
 
-1. Initialize Astro App
+# 1.Initialize Astro App
+
 # Astro Starter Kit: Basics
 
 ```sh
